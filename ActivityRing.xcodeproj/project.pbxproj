@@ -15,6 +15,8 @@
 		5ECAE3AF2413253B00C86849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECAE3AD2413253B00C86849 /* LaunchScreen.storyboard */; };
 		5ECAE3B724146ABC00C86849 /* CustomActivityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECAE3B624146ABC00C86849 /* CustomActivityRing.swift */; };
 		5ECAE3B92414778C00C86849 /* RingWeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECAE3B82414778C00C86849 /* RingWeekDay.swift */; };
+		5ECAE3BB241480CF00C86849 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5ECAE3BA241480CF00C86849 /* README.md */; };
+		5ECAE3BD241481BB00C86849 /* ActivityRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECAE3BC241481BB00C86849 /* ActivityRing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5ECAE3B02413253B00C86849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ECAE3B624146ABC00C86849 /* CustomActivityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityRing.swift; sourceTree = "<group>"; };
 		5ECAE3B82414778C00C86849 /* RingWeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingWeekDay.swift; sourceTree = "<group>"; };
+		5ECAE3BA241480CF00C86849 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
+		5ECAE3BC241481BB00C86849 /* ActivityRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActivityRing.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		5ECAE3962413253A00C86849 = {
 			isa = PBXGroup;
 			children = (
+				5ECAE3BA241480CF00C86849 /* README.md */,
+				5ECAE3BC241481BB00C86849 /* ActivityRing.png */,
 				5ECAE3A12413253A00C86849 /* ActivityRing */,
 				5ECAE3A02413253A00C86849 /* Products */,
 			);
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECAE3AF2413253B00C86849 /* LaunchScreen.storyboard in Resources */,
+				5ECAE3BD241481BB00C86849 /* ActivityRing.png in Resources */,
 				5ECAE3AC2413253B00C86849 /* Preview Assets.xcassets in Resources */,
+				5ECAE3BB241480CF00C86849 /* README.md in Resources */,
 				5ECAE3A92413253B00C86849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
